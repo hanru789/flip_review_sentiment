@@ -1,4 +1,5 @@
 # Flip Review Analysis
+[Notebook] [Dashboard]
 
 ## Business Understanding
 Flip adalah aplikasi keuangan yang memungkinkan pengguna melakukan transfer antar bank tanpa biaya admin, serta menyediakan berbagai fitur lain seperti pembayaran tagihan dan pembelian produk digital. Flip didirikan oleh tiga anak bangsa, yaitu Rafi Putra Arriyan, Luqman Sungkar, dan Ginanjar Ibnu Solihin. Mereka mendirikan Flip karena keresahan akan biaya transfer antar bank yang mahal pada saat itu. 
@@ -64,7 +65,7 @@ Data frame hasil scraping memiliki feature sebagai berikut:
 
 
 
-## Business Dashboard
+## Business [Dashboard]
 ![Dashboard](flip_review_dashboard.png)
 
 Dashboard dapat diakses meggunakan link berikut:
@@ -74,3 +75,6 @@ Dashboard dapat diakses meggunakan link berikut:
 ## Conclusion
 - User dapat menggunakan dashboard interaktif untuk melakukan analisa mendalam terhadap review yang  diberikan oleh pengguna aplikasi.
 - Model machine learning yang dihasilkan memiliki score f1 91 persen yang mana ini sudah cukup baik untuk menlakukan predksi sentimen dari review applikasi.
+
+[Notebook]:<https://github.com/hanru789/flip_review_sentiment/blob/main/review_Sentiment_notebook.ipynb>
+[Dashboard]:<https://public.tableau.com/views/FlipReview/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link&:device=desktop>
