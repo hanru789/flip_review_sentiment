@@ -1,30 +1,32 @@
 # Flip Review Analysis
+by: ruhanmasykuri@gmail.com
+
 [Notebook] [Dashboard]
 
 ## Business Understanding
-Flip adalah aplikasi keuangan yang memungkinkan pengguna melakukan transfer antar bank tanpa biaya admin, serta menyediakan berbagai fitur lain seperti pembayaran tagihan dan pembelian produk digital. Flip didirikan oleh tiga anak bangsa, yaitu Rafi Putra Arriyan, Luqman Sungkar, dan Ginanjar Ibnu Solihin. Mereka mendirikan Flip karena keresahan akan biaya transfer antar bank yang mahal pada saat itu. 
-Berikut beberapa poin penting tentang Flip:
-- Transfer antar bank gratis: Flip memfasilitasi transfer antar bank tanpa biaya admin, baik untuk transfer domestik maupun internasional. 
-- Fitur lain: Selain transfer gratis, Flip juga menyediakan fitur untuk pembayaran tagihan, pembelian pulsa, top up e-wallet, dan transaksi lainnya. 
-- Keamanan: Flip telah mengantongi izin dari Bank Indonesia dan menerapkan berbagai sistem keamanan untuk melindungi data pengguna, menurut Wikipedia. 
-- Sejarah: Flip didirikan pada tahun 2016 oleh tiga alumni Universitas Indonesia dan berawal dari keresahan akan biaya transfer antar bank yang tinggi, menurut Flip.id. 
-- Flip Globe: Flip juga memiliki fitur Flip Globe untuk transfer uang ke luar negeri. 
-- Flip Invoice: Fitur ini membantu pengguna untuk membuat dan mengirim invoice. 
-- Flip Deals: Flip Deals menawarkan berbagai penawaran menarik untuk pengguna. 
+Flip is a financial app that allows users to make interbank transfers without admin fees, as well as providing various other features such as bill payments and digital product purchases. Flip was founded by three Indonesians: Rafi Putra Arriyan, Luqman Sungkar, and Ginanjar Ibnu Solihin. They founded Flip out of concern about the high interbank transfer fees at the time.
+Here are some key points about Flip:
+- Free interbank transfers: Flip facilitates interbank transfers without admin fees, for both domestic and international transfers.
+- Other features: In addition to free transfers, Flip also provides features for bill payments, mobile phone credit purchases, e-wallet top-ups, and other transactions.
+- Security: Flip has obtained a permit from Bank Indonesia and implements various security systems to protect user data, according to Wikipedia.
+- History: Flip was founded in 2016 by three University of Indonesia alumni and began out of concern about high interbank transfer fees, according to Flip.id.
+- Flip Globe: Flip also has a Flip Globe feature for international money transfers.
+- Flip Invoice: This feature helps users create and send invoices.
+- Flip Deals: Flip Deals offers various attractive offers for users.
 
-### Permasalahan Bisnis
+### Business Problem
 
-#### Berikut adalah Permasalahan bisnis yang akan diselesaikan :
-- Bagaimana rating pengguna flip.id di google play
-- Adakah rating 1 yang memiliki thumbsUpCount tinggi?
-- Buat model machine learning yang dapat memprediksi sentimen user dari content reviewnya
+#### Here are the business problems to be solved:
+- What are flip.id's user ratings on Google Play?
+- Are there any rating points with a high thumbsup count?
+- Create a machine learning model that can predict user sentiment from review content.
 
 
-### Cakupan Proyek
-Proyek ini mencakup pembuatan Dashboard interaktif dan deteksi sentiment review menggunakan model Machine Learning.
+### Project Scope
+This project includes the creation of an interactive dashboard and review sentiment detection using a machine learning model.
 
-### Persiapan
-Project ini menggunakan data scraping google play terhadap review applikasi flip.id. Scraping dapat dilakukan dengan menjalankan kode berikut:
+### Preparation
+This project uses Google Play data scraping for flip.id app reviews. Scraping can be done by running the following code:
 ```sh
 !pip install google-play-scraper
 
@@ -47,7 +49,7 @@ df = pd.DataFrame(result)
 df.to_csv('flip_review.csv', index=False)
 ```
 
-Data frame hasil scraping memiliki feature sebagai berikut:
+The scraped data frame has the following features:
 
 | Column name | Description |
 | --- | --- |
@@ -68,8 +70,7 @@ Data frame hasil scraping memiliki feature sebagai berikut:
 ## Business [Dashboard]
 ![Dashboard](flip_review_dashboard.png)
 
-Dashboard dapat diakses meggunakan link berikut:
- https://public.tableau.com/views/FlipReview/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link&:device=desktop
+The dashboard can be accessed using the following link: https://public.tableau.com/views/FlipReview/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link&:device=desktop
 
 ## Machine Learning Process
 ![1](image/1.png)
@@ -79,8 +80,8 @@ Dashboard dapat diakses meggunakan link berikut:
 ![5](image/5.png)
 
 ## Conclusion
-- User dapat menggunakan dashboard interaktif untuk melakukan analisa mendalam terhadap review yang  diberikan oleh pengguna aplikasi.
-- Model machine learning yang dihasilkan memiliki score f1 91 persen yang mana ini sudah cukup baik untuk menlakukan predksi sentimen dari review applikasi.
+- Users can use the interactive dashboard to perform in-depth analysis of app user reviews.
+- The resulting machine learning model has an F1 score of 91%, which is sufficient for predicting sentiment from app reviews.
 
 [Notebook]:<https://github.com/hanru789/flip_review_sentiment/blob/main/review_Sentiment_notebook.ipynb>
 [Dashboard]:<https://public.tableau.com/views/FlipReview/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link&:device=desktop>
