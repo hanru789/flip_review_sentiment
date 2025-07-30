@@ -71,6 +71,12 @@ Data frame hasil scraping memiliki feature sebagai berikut:
 Dashboard dapat diakses meggunakan link berikut:
  https://public.tableau.com/views/FlipReview/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link&:device=desktop
 
+## Machine Learning Process
+![1](image/1.png)
+![2](image/2.png)
+![3](image/3.png)
+![4](image/4.png)
+![5](image/5.png)
 
 ## Conclusion
 - User dapat menggunakan dashboard interaktif untuk melakukan analisa mendalam terhadap review yang  diberikan oleh pengguna aplikasi.
