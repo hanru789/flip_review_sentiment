@@ -65,7 +65,8 @@ Data frame hasil scraping memiliki feature sebagai berikut:
 
 
 ## Business Dashboard
-<image-flip_review_dashboard.png>
+![Dashboard](flip_review_dashboard.png)
+
 Dashboard dapat diakses meggunakan link berikut:
  https://public.tableau.com/views/FlipReview/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link&:device=desktop
 
